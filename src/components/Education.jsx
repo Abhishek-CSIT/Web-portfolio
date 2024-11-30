@@ -4,12 +4,11 @@ import SchoolIcon from '@mui/icons-material/School';
 import { styled } from '@mui/system';
 
 const StyledPaper = styled(Paper)(({ theme }) => ({
-  padding: theme.spacing(2),
-  marginBottom: theme.spacing(3),
+  padding: '16px',
+  marginBottom: '32px',
   borderRadius: '10px',
   background: 'linear-gradient(to right, #6a11cb, #2575fc)',
   color: 'white',
-  boxShadow: theme.shadows[4],
 }));
 
 const educationData = [
